@@ -15,5 +15,16 @@ This is a simple, command-line CSV Cleaner tool built with Python, `pandas`, and
 
 ## 🖥 Usage
 
-```bash
-python cleaner.py input.csv output.csv --sort ColumnName
+## ⚙️ Installation
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<KalkiKS>/csv_cleaner.git
+   cd csv_cleaner
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+   
+3. Run the app
+  ```bash
+  python cleaner.py input.csv output.csv --sort ColumnName
